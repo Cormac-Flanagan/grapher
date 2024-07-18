@@ -1,0 +1,14 @@
+use std::env
+
+struct Eq {
+    Int(i32),
+    Box
+}
+
+pub fn parse(string: &str) ->  
+
+fn main() {
+    let args: Vec<String> = env::args().collect();
+    let equation = &args[1];
+    println!("Hello, world!");
+}
